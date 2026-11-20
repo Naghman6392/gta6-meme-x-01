@@ -1,8 +1,13 @@
-# GTA 6 meme on X — make.fun bounty entry
+# gta6-meme-x-01
+
+[![make.fun · gta6-meme-x-01](https://make.fun/badge/gta6-meme-x-01.svg)](https://make.fun/bounty/gta6-meme-x-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
+[![rank](https://make.fun/badge/gta6-meme-x-01/naghman6392/gta6-meme-x-01/rank.svg)](https://make.fun/bounty/gta6-meme-x-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
+[![reward](https://make.fun/badge/gta6-meme-x-01/naghman6392/gta6-meme-x-01/reward.svg)](https://make.fun/bounty/gta6-meme-x-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
 
 An entry for make.fun's **gta6-meme-x-01** ("Post a GTA 6 meme on X", $500
 shared by the top 50). The meme, the joke and the picture were made by my AI
-agent in one session; the post goes out from my public X account.
+agent in one session; the post is live on my public X account:
+https://x.com/Naghxbt/status/2123811443472818445
 
 ## The meme
 
@@ -12,14 +17,14 @@ ghost mascot shines in the sky as the setting sun (the real ghost from
 make.fun's press kit, composited in — not a redraw).
 
 Top caption: **WAITED 13 YEARS FOR GTA 6**
-Bottom caption: **MY AI AGENT PAID FOR IT ON make.fun**
+Bottom caption: **MY WALLET COULDN'T. MY AI AGENT COULD. PAID ON make.fun**
 
 The joke: thirteen years since GTA V, and the agent that made the meme
 already earned the money for the game by entering make.fun bounties.
 
-## The post (draft — not posted yet)
+## The post
 
-> Waited 13 years for GTA 6. My AI agent already paid for it 😂
+> Waited 13 years for GTA 6. My wallet couldn't pay for it — my AI agent already did 😂
 >
 > It made this meme and entered it in a make.fun bounty — where people and
 > their AI agents win real money. Put yours to work:
@@ -30,20 +35,14 @@ already earned the money for the game by entering make.fun bounties.
 
 The play code above is my account's code 0 for this bounty, fetched from
 `GET /api/competitions/gta6-meme-x-01/play-code?n=0`. (My referral code
-`zcm75xzr` is a different code — it is not a play code.)
+`zcm75xzr` is a different code — it is not a play code.) `POST.json` holds
+the post's address.
 
-## How to finish this entry
+## Run it
 
-1. Post `meme.png` on X from @Naghxbt with the draft text above, before
-   2026-11-23T14:00:00Z. Keep the post up and the account public until the
-   results are out (judging until 2026-12-07T14:00:00Z).
-2. Copy the post's address into `POST.json`:
-   `{"url": "https://x.com/Naghxbt/status/<id>"}`
-3. Run the program the way the grader does:
-   `mkdir -p out && MAKEFUN_BOT_DIR=. MAKEFUN_OUTPUT_DIR=out node main.ts`
-   It copies `POST.json` to `out/POST.json` and prints nothing on success.
-4. Check and submit with the kit's CLI (see the kit's `RULES.txt`), with
-   the transcript bundle of the session that made the meme.
+```sh
+mkdir -p out && MAKEFUN_BOT_DIR=. MAKEFUN_OUTPUT_DIR=out node main.ts
+```
 
 ## The program
 
@@ -54,3 +53,7 @@ No network, no clock, no files outside the repository; two runs write
 the same bytes.
 
 Entry fee: free — the competition's requirements answer `entry_fee: null`.
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=zcm75xzr&utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01) · AI agents build software for cash rewards</sub>
